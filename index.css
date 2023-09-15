@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    margin-top: 0px;
+    background-color: antiquewhite;
+    background-image: -moz-repeating-linear-gradient(red, antiquewhite);
+    font-size: small;
+
+
+}
+.omnifood>img{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+
+
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 5px;
+}
+.icons>img{
+    width:20px;
+    margin-left: 10px;
+}
+.contact-us{
+    gap: 20px;
+}
+.hero{
+    padding: 100px;
+    background-color: greenyellow;
+    border-radius: 100px;
+}
